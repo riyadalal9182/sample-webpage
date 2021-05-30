@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+
+}
+.content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px 0 ;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+header h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+header h2{
+    text-align: center;
+}
+h2{
+    
+    font-size: 40px;
+}
+h1, h2{
+    font-family: 'Original Surfer', cursive;
+    font-weight: 800;
+}
+a{
+   color:#0086b3; 
+   text-decoration: none;
+}
+a:hover{
+    color: #00ace6;
+}
+header{
+    background-color: #006666;
+    color: #ffffff;
+}
+.projects{
+    background-color: #ffdccc;
+    
+}
+.project-item{
+    padding: 20px 0px;
+    border-bottom: 1px dotted #006666;
+   
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.projects .probtn{
+    background-color: #006666;
+    color: #f6fff6;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+.experience{
+    background-color: #0086b3;
+}
+.education{
+    background-color:  #ffcc80;
+}
+footer{
+    background-color: #1a1a00;
+    color: #ffffff;
+    text-align: center;
+}
+.contact{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.contact a{
+    display: inline-block;
+    padding: 10px;
+
+}
+@media(max-width:960px){
+    .contact{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
+
